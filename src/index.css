@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/dbxlnightfever');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: black;
+  }
+
+  .container {
+    max-width: 1280px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+
+  .bordered {
+    -webkit-text-stroke: 3px #fff;
+  }
+}
+
+.react-clock__face {
+  border: 2px solid #959292 !important;
+  color: #737373 !important;
+  transform: scale(2.1);
+}
+
+.react-clock__hand__body {
+  background-color: #601515 !important;
+  transform: scale(2.2) !important;
+}
+
+.react-clock__mark__body {
+  background-color: #2f2f2f !important;
+}
